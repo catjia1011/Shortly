@@ -4,6 +4,8 @@
 <dict>
 	<key>Author</key>
 	<string>Zhusee (ZZHC Studio)</string>
+	<key>Builder Version</key>
+	<string>6534.42</string>
 	<key>CFBundleDisplayName</key>
 	<string>Shortly</string>
 	<key>CFBundleIdentifier</key>
@@ -18,6 +20,19 @@
 	<dict>
 		<key>Global Page</key>
 		<string>global.html</string>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>popoverTemplate.html</string>
+				<key>Height</key>
+				<real>100</real>
+				<key>Identifier</key>
+				<string>popoverResult</string>
+				<key>Width</key>
+				<real>200</real>
+			</dict>
+		</array>
 		<key>Toolbar Items</key>
 		<array>
 			<dict>
@@ -31,6 +46,8 @@
 				<string>Shorten</string>
 				<key>Palette Label</key>
 				<string>Shorten</string>
+				<key>Popover</key>
+				<string>popoverResult</string>
 				<key>Tool Tip</key>
 				<string>Get shortened address of the current page</string>
 			</dict>
